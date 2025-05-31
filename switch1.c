@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-int day = '3';
+int day = '8';
 
 switch(day) {
     case '1':

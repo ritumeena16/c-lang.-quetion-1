@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char ch='h';
+    char ch='a';
     switch(ch) {
         case 'a':
         case 'e':

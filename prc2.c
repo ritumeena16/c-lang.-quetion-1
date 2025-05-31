@@ -1,3 +1,4 @@
+//valid voter
 #include <stdio.h>
 int main() {
     char name[30];
@@ -8,6 +9,8 @@ int main() {
     scanf("%d",&age);
     if(age>=18){
         printf("hello %s,you are eligible to vote\n",name);
+    }else{
+        printf("hello %s,you are not eligible to vote\n",name);
     }
     return 0;
 }

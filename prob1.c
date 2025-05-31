@@ -1,6 +1,7 @@
+//sum of factorials from 1! to n!
 #include <stdio.h>
 int main() {
-    int n=5,fact=1,sum=0;
+    int n=6,fact=1,sum=0;
     for(int i=1; i<=n; i++){
     for(int j=1; j<=i; j++){
         fact*=j;

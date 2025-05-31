@@ -1,3 +1,4 @@
+//prime no.
 #include <stdio.h>
 
 int main() {
@@ -7,7 +8,7 @@ int main() {
     scanf("%i",&n);
 
     int count = 0;
-    for(int i = 1; i<=n; i++){  // 2 to 5 11 
+    for(int i = 1; i<=n; i++){   
         if(n%i==0) {
            count++;
         }

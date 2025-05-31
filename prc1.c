@@ -1,3 +1,4 @@
+//pos,neg,zero
 #include <stdio.h>
 int main() {
     int n ;
